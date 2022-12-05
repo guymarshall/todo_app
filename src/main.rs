@@ -5,7 +5,7 @@ fn main() {
     println!("1     List all todos");
     println!("2     Add todo");
     println!("3     Delete todo");
-    let choice: i32 = user_input::get_user_input("Enter your choice: ");
+    let choice: i32 = user_input::get_user_input("Enter your choice:");
 
     match choice {
         1 => println!("One"),
